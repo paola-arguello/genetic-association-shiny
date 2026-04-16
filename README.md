@@ -26,12 +26,25 @@ This app was designed as a portfolio piece for clinical, biostatistical, and bio
 
 ## Files & App Structure
 
+
 `genetic-association-shiny/` 
+
+
 ├── `app.R`: launcher for the application
+
+
 ├── `ui.R`: user interface
+
+
 ├── `server.R`: server logic and statistical calculations
+
+
 ├── `helpers.R`: auxiliary functions 
+
+
 └── `www/`
+
+
    └── `styles.css`: style and aesthetics
 
 
