@@ -24,11 +24,16 @@ This app was designed as a portfolio piece for clinical, biostatistical, and bio
 - statistical significance depends on uncertainty, not just magnitude
 - larger samples can make estimates more stable, but do not fix bias or poor study design
 
-## Files
+## Files & App Structure
 
-- `app.R`: launcher for the application
-- `ui.R`: user interface
-- `server.R`: server logic and statistical calculations
+`genetic-association-shiny/` 
+├── `app.R`: launcher for the application
+├── `ui.R`: user interface
+├── `server.R`: server logic and statistical calculations
+├── `helpers.R`: auxiliary functions 
+└── `www/`
+   └── `styles.css`: style and aesthetics
+
 
 ## Run locally
 
