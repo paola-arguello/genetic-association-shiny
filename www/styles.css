@@ -1,0 +1,98 @@
+
+
+.metric-value {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #2f5d62;
+  margin-bottom: 4px;
+}
+
+.metric-label {
+  color: #667356;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #44552d;
+}
+
+.interpretation-card {
+  border-left-color: #2f5d62;
+  background: #fcfdfb;
+}
+
+.interp-headline {
+  font-size: 19px;
+  font-weight: 700;
+  color: #2f5d62;
+  margin-bottom: 10px;
+  line-height: 1.35;
+}
+
+.small-note {
+  color: #667356;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.warning-text {
+  color: #8a6a1f;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > td,
+.table > tbody > tr > th {
+  border-top: 1px solid #e3ebe4;
+  color: #2f3e1f;
+}
+
+.form-control,
+.selectize-input,
+.shiny-input-container input,
+.shiny-input-container textarea {
+  border-radius: 8px;
+  border: 1px solid #cfd9d0;
+  box-shadow: none;
+}
+
+.form-control:focus,
+.shiny-input-container input:focus,
+.shiny-input-container textarea:focus {
+  border-color: #2f8f9d;
+  box-shadow: 0 0 0 0.15rem rgba(47, 143, 157, 0.15);
+}
+
+.radio label,
+.control-label {
+  color: #314129;
+}
+
+.irs--shiny .irs-bar,
+.irs--shiny .irs-single,
+.irs--shiny .irs-from,
+.irs--shiny .irs-to {
+  background: #2f8f9d;
+  border-color: #2f8f9d;
+}
+
+.irs--shiny .irs-handle {
+  border: 1px solid #2f8f9d;
+  background: #ffffff;
+}
+
+.well {
+  background: #f7faf7;
+  border: 1px solid #d9e4dc;
+}
